@@ -52,8 +52,7 @@ export default function Challenges() {
             ))}
           </ol>
         )}
-        {displayedChallenges.length === 0 && <p>No challenges found.</p>}
-        //{displayedChallenges.length === 0 && <p>No challenges found.</p>}
+        {displayedChallenges.length === 0 && <p>No challenges found.</p>} 
       </ChallengeTabs>
     </div>
   );
